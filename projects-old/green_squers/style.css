@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    height: 30px;
+    width: 30px;
+    border: solid 1px rgb(100, 255, 0);
+}

@@ -1,0 +1,105 @@
+/* @font-face {
+    font-family: 'Arvo';
+    src: url(../axioss/Arvo-Regular.ttf);
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo';
+}
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav{
+    background-color: #ddd;
+    box-shadow: 1px 2px 8px #ddd;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    margin-top: 7%;
+    
+}
+.card {
+    padding: 10px;
+    border: solid;
+    box-shadow: 2px 4px 10px #ddd;
+}
+.card .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.m10 {
+    margin: 0 10px;
+}
+
+.task {
+    margin-top: 10px;
+}
+.task h3{
+    margin: 5px; 
+}
+
+.card p{
+    padding: 10px 10px 0 10px;
+}
+.card .btns {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+.card .btns button {
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.detail {
+    overflow: hidden;
+}
+.detail .ffff{
+    border: solid;
+    transition: 0.3 linear ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.create {
+    border: none;
+    outline: none;
+    position: fixed;
+    top: 85%;
+    left: 75%;
+    border-radius: 100%;
+    padding: 20px 10px;
+    background-color: orange;
+    color: white;
+}
+.create:hover{
+    background-color: orangered;
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}

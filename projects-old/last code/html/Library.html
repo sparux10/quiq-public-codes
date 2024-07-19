@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last code</title>
+    <link rel="stylesheet" href="../styles/bootstrap.css">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm navcol">
+        <div class="container">
+            <h2 class="nav-brand">Last-Code</h2>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#x">
+                <img src="../Pics/toggle.png" alt="toggle" width="30px">
+            </button>
+
+            <div id="x" class="collapse navbar-collapse ">
+                <ul class="navbar-nav mar-10">
+                    <li class="nav-item"><a class="nav-link " href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link m-active" href="Library.html">Library</a></li>
+                    <li class="nav-item"><a class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--library start-->
+<div class="bg-lib">
+    <h3 class="text-center" style="color: white;">
+        welocme to my favorite section !
+    </h3>
+    <div class="container">
+        <div class="row alert alert-success"  role="alert">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 col-12">
+            <h2 style="padding-top: 25%;">Quiq Description</h2>
+            <p>
+                lmktaba hia wa7ed lblassa li kan7at fiha lmachari3 sghar li sawbt wana fmar7alat ta3alom
+
+            </p></div>
+            <img src="../Pics/libr.png" alt="" class="col-sm-5 col-12" width="30%">
+        </div>
+    </div>
+
+    <style>
+
+        .bg-lib{
+            background-image: url('../Pics/dev2.jpg');
+            padding: 8% 0;
+        }
+        .bg-card{
+            background-image: url('../Pics/bg-rose.jpg');
+        }
+    </style>
+
+    <!--clock project-->
+    <div class="container">
+        <div class="card bg-card text-center ">
+            <h4  >its a clock that work with local time</h4>
+            <style>
+                body {
+                    background-color: #084298;
+                }
+
+                .clock {
+                    width: 300px;
+                    height: 300px;
+                    background-color: rgb(55, 48, 87);
+                    border: solid 22px yellowgreen;
+                    border-radius: 120px;
+                }
+
+                .sec {
+                    width: 8px;
+                    height: 300px;
+                    display: flex;
+                    position: absolute;
+                    top: 10%;
+                    left: 54.6%;
+                    background-image: linear-gradient(rgb(255, 0, 0) 50%, transparent 50%);
+                }
+
+                .min {
+                    width: 12px;
+                    height: 270px;
+                    display: flex;
+                    position: absolute;
+                    top: 18px;
+                    left: 146px;
+                    background-image: linear-gradient(black 50%, transparent 50%);
+                }
+
+                .hou {
+                    width: 16px;
+                    height: 230px;
+                    display: flex;
+                    position: absolute;
+                    top: 36px;
+                    left: 146px;
+                    background-image: linear-gradient(black 50%, transparent 50%);
+                }
+
+                .clock::after {
+                    content: "";
+                    width: 30px;
+                    height: 30px;
+                    position: relative;
+                    display: block;
+                    top: 44%;
+                    left: 44%;
+                    background-color: yellow;
+                    border-radius: 50%;
+                }
+            </style>
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="clock col-4">
+                    <span class="sec " id="sec"></span>
+                    <span class="min" id="min"></span>
+                    <span class="hou" id="hou"></span>
+                </div>
+            </div>
+
+            <script>
+                /*get time*/
+                today = new Date()
+                var s = today.getSeconds()
+                var m = today.getMinutes()
+                var h = today.getHours()
+
+                /*transform time to deg*/
+                var rs = s * 6
+                var rm = m * 6
+                var pr = (rm / 360) * 30
+                var rh = h * 30 + pr
+
+                /*real time = real deg*/
+                var i = 0 + rs
+                var x = 0 + rm
+                var y = 0 + rh
+
+                /*count and inner the output*/
+                setInterval(function count() {
+                    i += 6
+                    x += 0.06
+                    y += 0.006
+                    document.getElementById('sec').style.transform = 'rotate(' + i + 'deg)';
+                    document.getElementById('min').style.transform = 'rotate(' + x + 'deg)';
+                    document.getElementById('hou').style.transform = 'rotate(' + y + 'deg)';
+
+                }, 1000)
+
+            </script>
+        </div>
+    </div>
+</div>
+
+
+    <!--end-->
+    <footer class="text-center h4">
+        <div>
+            copyrghit 2023 <br>
+            by <span class="main-color-1">last code</span>
+        </div>
+
+    </footer>
+
+
+
+    <script src="../styles/bootstrap.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    min-width: 300px;
+    height: 300px;
+    background-image: url(./clock.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    border-radius: 50%;
+    border: solid 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hour{
+    width: 15px;
+    height: 190px;
+    background-image: linear-gradient(black 50%, transparent 50%);
+    position: absolute;
+}
+.minut{
+    width: 10px;
+    height: 210px;
+    background-image: linear-gradient(black 50%, transparent 50%);
+    position: absolute;
+}
+.scend{
+    width: 5px;
+    height: 250px;
+    background-image: linear-gradient(black 50%, transparent 50%);
+    position: absolute;
+}
+.point{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    z-index: 1;
+}

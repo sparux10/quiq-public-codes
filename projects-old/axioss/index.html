@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'Arvo';
+            src: url(./Arvo-Regular.ttf);
+        }
+
+        * {
+            font-family: 'arvo';
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid;
+            text-align: center;
+            width: fit-content;
+        }
+
+        th,
+        td {
+            width: fit-content;
+            padding: 2px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table>
+            <thead>
+                <th>id</th>
+                <th>name</th>
+                <th>email</th>
+                <th>created at</th>
+            </thead>
+            <tbody id="tb">
+
+            </tbody>
+        </table>
+    </center>
+    <script src="./node_modules/axios/dist/axios.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

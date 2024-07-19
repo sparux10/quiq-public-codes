@@ -1,0 +1,217 @@
+{
+    "count": 43,
+    "next": "http://localhost:8000/api/products/?page=2",
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "name": "pc lenovo l560",
+            "description": "hz hpezj ezpchpzcpz p",
+            "price": "5100.00",
+            "discount": 0,
+            "brand": "lenovo",
+            "ratings": "3.90",
+            "stock": 10,
+            "product_img": "http://localhost:8000/media/dfoieil",
+            "category": 2,
+            "created_at": "2024-07-12T00:00:00Z",
+            "user": 1,
+            "product_colors_sizes": [
+                {
+                    "id": 5,
+                    "color_id": 2,
+                    "color_name": "green",
+                    "size_id": 2,
+                    "size_name": "s"
+                },
+                {
+                    "id": 6,
+                    "color_id": 2,
+                    "color_name": "green",
+                    "size_id": 2,
+                    "size_name": "s"
+                },
+                {
+                    "id": 7,
+                    "color_id": 5,
+                    "color_name": "white",
+                    "size_id": 7,
+                    "size_name": "xxl"
+                },
+                {
+                    "id": 18,
+                    "color_id": 2,
+                    "color_name": "green",
+                    "size_id": 2,
+                    "size_name": "s"
+                },
+                {
+                    "id": 19,
+                    "color_id": 5,
+                    "color_name": "white",
+                    "size_id": 7,
+                    "size_name": "xxl"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "phone",
+            "description": "dhoishco",
+            "price": "1200.00",
+            "discount": 10,
+            "brand": "samsung",
+            "ratings": "4.70",
+            "stock": 26,
+            "product_img": "http://localhost:8000/media/iugig",
+            "category": 2,
+            "created_at": "2024-07-12T00:00:00Z",
+            "user": 1,
+            "product_colors_sizes": []
+        },
+        {
+            "id": 3,
+            "name": "bis",
+            "description": "pize",
+            "price": "100.00",
+            "discount": -3,
+            "brand": "ho",
+            "ratings": "2.00",
+            "stock": 201,
+            "product_img": null,
+            "category": 2,
+            "created_at": "2024-07-15T00:00:00Z",
+            "user": null,
+            "product_colors_sizes": []
+        },
+        {
+            "id": 4,
+            "name": "phonex",
+            "description": "hz hpezj ezpchpzcpz p",
+            "price": "3200.00",
+            "discount": 10,
+            "brand": "xpohone",
+            "ratings": "3.90",
+            "stock": 110,
+            "product_img": null,
+            "category": 2,
+            "created_at": "2024-07-15T21:36:19.358759Z",
+            "user": 1,
+            "product_colors_sizes": []
+        },
+        {
+            "id": 5,
+            "name": "phonex2",
+            "description": "hz hpezj ezpchpzcpz p",
+            "price": "3400.00",
+            "discount": 10,
+            "brand": "xpohone",
+            "ratings": "3.90",
+            "stock": 110,
+            "product_img": null,
+            "category": 2,
+            "created_at": "2024-07-15T21:43:10.454023Z",
+            "user": 1,
+            "product_colors_sizes": [
+                {
+                    "id": 1,
+                    "color_id": 2,
+                    "color_name": "green",
+                    "size_id": 1,
+                    "size_name": "xs"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "phonex3",
+            "description": "hz hpezj ezpchpzcpz p",
+            "price": "4000.00",
+            "discount": 10,
+            "brand": "xpohone",
+            "ratings": "3.00",
+            "stock": 10,
+            "product_img": null,
+            "category": 2,
+            "created_at": "2024-07-15T21:47:36.220495Z",
+            "user": 1,
+            "product_colors_sizes": [
+                {
+                    "id": 2,
+                    "color_id": 2,
+                    "color_name": "green",
+                    "size_id": 2,
+                    "size_name": "s"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "phonex3",
+            "description": "hz hpezj ezpchpzcpz p",
+            "price": "4000.00",
+            "discount": 10,
+            "brand": "xpohone",
+            "ratings": "3.00",
+            "stock": 10,
+            "product_img": null,
+            "category": 2,
+            "created_at": "2024-07-15T22:01:13.807524Z",
+            "user": 1,
+            "product_colors_sizes": []
+        },
+        {
+            "id": 8,
+            "name": "phonex2",
+            "description": "hz hpezj ezpchpzcpz p",
+            "price": "3400.00",
+            "discount": 10,
+            "brand": "xpohone",
+            "ratings": "3.90",
+            "stock": 110,
+            "product_img": null,
+            "category": 2,
+            "created_at": "2024-07-15T22:01:56.512395Z",
+            "user": 1,
+            "product_colors_sizes": []
+        },
+        {
+            "id": 9,
+            "name": "phonex2",
+            "description": "hz hpezj ezpchpzcpz p",
+            "price": "3400.00",
+            "discount": 10,
+            "brand": "xpohone",
+            "ratings": "3.90",
+            "stock": 110,
+            "product_img": null,
+            "category": 2,
+            "created_at": "2024-07-15T22:02:17.558137Z",
+            "user": 1,
+            "product_colors_sizes": []
+        },
+        {
+            "id": 10,
+            "name": "phonex3",
+            "description": "hz hpezj ezpchpzcpz p",
+            "price": "4000.00",
+            "discount": 10,
+            "brand": "xpohone",
+            "ratings": "3.00",
+            "stock": 10,
+            "product_img": null,
+            "category": 2,
+            "created_at": "2024-07-15T22:03:04.676638Z",
+            "user": 1,
+            "product_colors_sizes": [
+                {
+                    "id": 3,
+                    "color_id": 2,
+                    "color_name": "green",
+                    "size_id": 2,
+                    "size_name": "s"
+                }
+            ]
+        }
+    ]
+}

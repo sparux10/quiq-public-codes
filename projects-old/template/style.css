@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+/*header*/
+nav{
+    color: white;
+    margin: 1% 3%;
+    display: flex;
+    height: 40px;
+}
+.gray{
+    background-color: #262221;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    border-radius: 20px 0 0 20px ;
+}
+nav h2{
+    color: #fdbe0f;
+    font-family: cursive;
+    margin: 0 10px;
+    
+}
+nav ul{
+    list-style: none;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    padding: 0 3%;
+    font-family: monospace;
+}
+.yellow{
+    background-color: #fdbe0f;
+    width: 30%;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.yellow button{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #262221;
+    cursor: pointer;
+    height: 25px;
+    padding: 0 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+/*section 1*/
+.section1{
+    margin: 1% 3%;
+    height: 480px;
+    color: white;
+    display: flex;
+}
+.section1 .gray2{
+    background-color: #262221;
+    width: 70%;
+    border-radius: 20px 0 0 20px ;
+}
+.section1 .gray2 div{
+    padding: 50px 20px;
+}
+.section1 .gray2 div h1{
+    font-size: 2.5rem;
+    margin: 3rem 0;
+}
+.gusto{
+    color: #fdbe0f;
+    font-family: cursive;
+    font-size: 3rem;
+}
+.section1 .gray2 div p{
+    width: 70%;
+    font-size: 1rem;
+    line-height: 22px;
+}
+.section1 .gray2 div button{
+    outline: none;
+    border: none;
+    color: #262221;
+    background-color: #fdbe0f;
+    cursor: pointer;
+    margin: 30px 0 0 180px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.section1 .yellow2{
+    background-color: #fdbe0f;
+    width: 30%;
+    border-radius: 0 20px 20px 0;
+}
+.section1 .yellow2 span {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 91%;
+    background-color: white;
+    padding: 7px 0 16px 7px;
+    border-bottom-left-radius: 29px;
+    
+}
+.section1 .yellow2 span img{
+    margin-right: 5px;
+}
+.section1 .goko{
+    position: absolute;
+    width: 300px;
+    left: 55%;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meteo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="current-meto-day">
+            <h3>Casablanca</h3>
+            <h6 id="time"></h6>
+            <div class="top">
+                <div class="unit">
+                    <img src="assets/night.png" alt="sun" width="35%">
+                </div>
+                <div class="unit">
+                    <h1 id="temperature">
+                    </h1>
+                </div>
+            </div>
+
+            <div class="second">
+                <div>
+                    <img src="assets//aviable/wind.png" alt="wind speed">
+                    <span id="wind"></span>
+                </div>
+                <div>
+                    <img src="assets/aviable/hymidity.png" alt="humidity">
+                    <span id="humidity"></span>
+                </div>
+                <div>
+                    <img src="assets/aviable/pressure.png" alt="pressure">
+                    <span id="pressure"></span>
+                </div>
+
+                <div>
+                    <img src="assets/cloudy.png" alt="cloud_cover">
+                    <span id="cloud_cover"></span>
+                </div>
+                <div>
+                    <img src="assets/aviable/rainy.png" alt="precipitation">
+                    <span id="precipitation"></span>
+                </div>
+                <div>
+                    <img src="assets/rain.png" alt="rain">
+                    <span id="rain"></span>
+                </div>
+                <div>
+                    <img src="assets/aviable/sunrise.png" alt="sunrise">
+                    <span id="sunrise"></span>
+                </div>
+                <div>
+                    <img src="assets/aviable/sunset.png" alt="sunset">
+                    <span id="sunset"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="meteo-day" id="meteo_day">
+        </div>
+    </section>
+
+    <div id="loding" class="lod">
+        <div class="load"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

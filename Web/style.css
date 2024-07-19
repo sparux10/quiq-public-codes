@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+}
+img{
+    width: 170px;
+    border-radius: 5px 5px 0 0;
+}
+.img {
+    width: 170px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+
+}
+.card{
+    border: 1px solid #e8e8e8;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #ddd;
+    padding: 1rem;
+
+}
+.f_line{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.name{
+    font-weight: 600;
+}
+.price{
+    color: red;
+}
+
+.rate img{
+    width: 0.825rem;
+}
+.disc {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+    font-weight: 600;
+    border-radius: 0 5px 0 2px;
+}
+.brand{
+    color: #ccc;
+    margin: 5px 0;
+}
+.desc{
+    width: 170px;
+    margin: 8px 0 15px 0;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    
+    padding: 5px 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.order {
+    background-color: rgb(0, 165, 129);
+
+}
+.order:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid rgb(0, 165, 129);
+}
+.cart{
+    background-color: #fff;
+    color: black;
+    border: 1px solid rgb(0, 165, 129);
+}
+.cart:hover {
+   background-color: rgb(0, 165, 129);
+   color: white;
+}
