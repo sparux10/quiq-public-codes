@@ -16,6 +16,7 @@
     width: 100px;
     border: 15px solid gray;
     border-right: 15px solid rgb(0, 208, 255);
+    box-shadow:2px 0px 10px -1px rgb(0, 208, 255);
     border-radius: 50%;
     animation: spin 2s linear infinite;
 }

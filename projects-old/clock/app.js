@@ -1,5 +1,3 @@
-
-
 const date = new Date
 let h = date.getHours()
 let m = date.getMinutes()
