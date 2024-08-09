@@ -1,78 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meteo</title>
+    <title>Meteo</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <div class="custom-select" >
+    <h1>Select a City</h1>
+    <select id="city-select" >
+        <option >Casablanca</option>
+        <option>Tangier</option>
+        <option>Marrakech</option>
+        <option>Ouarzazate</option>
+        <option>Fes</option>
+        <option>Meknes</option>
+        <option>Rabat</option>
+        <option>Oujda</option>
+        <option>Agadir</option>
+    </select>
+</div>
 
-    <section>
-        <div class="current-meto-day">
-            <h3>Casablanca</h3>
-            <h6 id="time"></h6>
-            <div class="top">
-                <div class="unit">
-                    <img src="assets/night.png" alt="sun" width="35%">
-                </div>
-                <div class="unit">
-                    <h1 id="temperature">
-                    </h1>
-                </div>
-            </div>
-
-            <div class="second">
-                <div>
-                    <img src="assets//aviable/wind.png" alt="wind speed">
-                    <span id="wind"></span>
-                </div>
-                <div>
-                    <img src="assets/aviable/hymidity.png" alt="humidity">
-                    <span id="humidity"></span>
-                </div>
-                <div>
-                    <img src="assets/aviable/pressure.png" alt="pressure">
-                    <span id="pressure"></span>
-                </div>
-
-                <div>
-                    <img src="assets/cloudy.png" alt="cloud_cover">
-                    <span id="cloud_cover"></span>
-                </div>
-                <div>
-                    <img src="assets/aviable/rainy.png" alt="precipitation">
-                    <span id="precipitation"></span>
-                </div>
-                <div>
-                    <img src="assets/rain.png" alt="rain">
-                    <span id="rain"></span>
-                </div>
-                <div>
-                    <img src="assets/aviable/sunrise.png" alt="sunrise">
-                    <span id="sunrise"></span>
-                </div>
-                <div>
-                    <img src="assets/aviable/sunset.png" alt="sunset">
-                    <span id="sunset"></span>
+<div class="container">
+    <div class="current-meto-day">
+        <div>
+            <div>
+                <h2 class="title" id="city">Casablanca</h2>
+                <h6 id="time"></h6>
+                <h6 id="weathercode"></h6>
+                <div class="top">
+                    <img src="" id="dn" alt="day">
+                    <h3 id="temperature"></h3>
                 </div>
             </div>
         </div>
-    </section>
 
-    <section>
-        <div class="meteo-day" id="meteo_day">
+        <div class="values">
+            <div>
+                <img src="assets/wi-day-windy.svg" alt="wind speed">
+                <span id="wind"></span>
+            </div>
+            <div>
+                <img src="assets/wi-humidity.svg" alt="humidity">
+                <span id="humidity"></span>
+            </div>
+            <div>
+                <img src="assets/wi-cloud.svg" alt="pressure">
+                <span id="pressure"></span>
+            </div>
+            <div>
+                <img src="assets/wi-cloudy.svg" alt="cloud_cover">
+                <span id="cloud_cover"></span>
+            </div>
+            <div>
+                <img src="assets/wi-rain-mix.svg" alt="precipitation">
+                <span id="precipitation"></span>
+            </div>
+            <div>
+                <img src="assets/wi-raindrop.svg" alt="rain">
+                <span id="rain"></span>
+            </div>
+            <div>
+                <img src="assets/wi-sunrise.svg" alt="sunrise">
+                <span id="sunrise"></span>
+            </div>
+            <div>
+                <img src="assets/wi-sunset.svg" alt="sunset">
+                <span id="sunset"></span>
+            </div>
         </div>
-    </section>
+    </div>
+</div>
 
-    <div id="loding" class="lod">
-        <div class="load"></div>
+    <div id="loading" class="loading" style="display:none;">
+        <div class="circle"></div>
     </div>
 
     <script src="script.js"></script>
-
 </body>
-
 </html>

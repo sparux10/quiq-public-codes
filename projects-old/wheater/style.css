@@ -2,95 +2,110 @@
     font-family: 'Noto';
     src: url(./font/NotoSans-VariableFont_wdth\,wght.ttf);
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: space-around;
+    height: 100%;
     font-family: 'Noto';
     font-weight: 500;
 }
 
-h6 {
-    margin: 5% 0;
+.custom-select {
+    width: 100%;
+    text-align: center;
+    margin-block: 1rem;
 }
 
-span {
-    font-size: 15px;
+.custom-select select {
+    color: black;
+    appearance: none;
+    outline: none;
+    width: 50%;
+    height: 3rem;
+    font-size: 1rem;
+    margin-block: 1rem;
+    padding: 10px;
+    border: 1px solid #caced1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.custom-select select:focus {
+    border: 1px solid  #1d7fb8;
 }
 
-section {
-    margin: 80px 0;
-    
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .current-meto-day {
-    height: 500px;
-    width: 400px;
-    border-radius: 20px;
+    height: fit-content;
+    width: 95%;
+    padding: 2rem 0;
+    border-radius: 15px;
+    text-align: center;
     background-image: linear-gradient(-150deg, #020423, #041630, #0b364f, rgb(0, 187, 125));
 }
 
-.current-meto-day h3 {
-    padding-top: 7%;
+.current-meto-day .title {
+    margin-bottom: 1rem;
 }
 
 .current-meto-day .top {
-    margin-top: 7%;
+    margin: 2rem;
     display: flex;
-}
-
-.current-meto-day .top .unit {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.current-meto-day .second {
-    display: grid;
-    grid-template-rows: 60px 60px 60px 60px;
-    grid-template-columns: 180px 180px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.current-meto-day .second div {
-    display: flex;
-    align-items: center;
-}
-
-.current-meto-day .second div img {
-    margin: 0 8% 0 25%;
+.current-meto-day .top img {
     width: 20%;
+    filter: invert(100%) brightness(1000%);
 }
 
-.lod {
-    display: none;
-    position: absolute;
+.current-meto-day .values {
+    display: grid;
+    grid-template-rows: 4rem 4rem 4rem 4rem;
+    grid-template-columns: 10rem 10rem;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 98vw;
-    background: rgba(70, 70, 70, 0.372)000;
 }
 
-.load {
-    display: block;
-    width: 120px;
-    height: 120px;
-    border: 16px solid gray;
-    border-top: 16px solid black;
+.current-meto-day .values div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-meto-day .values div img {
+    margin: 0 1rem;
+    width: 25%;
+    filter: invert(100%) brightness(1000%);
+}
+
+.loading {
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border: 15px solid gray;
+    border-right: 15px solid rgb(0, 208, 255);
+    box-shadow: 2px 0px 10px -1px rgb(0, 208, 255);
     border-radius: 50%;
     animation: spin 2s linear infinite;
 }
@@ -105,6 +120,10 @@ section {
     }
 }
 
+
+
+
+/* 
 .meteo-day{
     height: 500px;
     width: 600px;
@@ -147,3 +166,6 @@ section {
 .t_magin{
     margin: 9px 0;
 }
+
+
+ */

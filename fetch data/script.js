@@ -1,4 +1,14 @@
-function updateProduct() {
+const url = "https://youtu.be/omewjiYaZZU?si=vR0yY4g9fOKlVOpS"
+
+fetch(url)
+.then(data => console.log(data))
+
+
+
+
+
+
+/* function updateProduct() {
     const formData = new FormData();
     formData.append('category_img', document.getElementById('file').files[0]);
     formData.append('name', 'new data 110')
@@ -19,3 +29,4 @@ function updateProduct() {
     });
     console.log(formData)
 }
+ */
